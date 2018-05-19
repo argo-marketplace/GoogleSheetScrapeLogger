@@ -49,4 +49,4 @@ function copyRange()
 ![image](https://user-images.githubusercontent.com/4397663/40270559-c1465200-5b4c-11e8-9ea4-47ab002f30ac.png)
 
 
-7. FIN
+7. FIN. Use datastudio.google.com to create charts and dashboards for your data stream.
