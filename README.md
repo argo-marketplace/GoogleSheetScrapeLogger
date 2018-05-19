@@ -4,9 +4,8 @@ A dirt simple way to scrape and log data using Google Sheets
 
 1. Use GoogleSheet's IMPORT* functions to import some data into a Google Sheet.
 For this example, I am importing views from a Youtube video.
-```
-=value(REGEXREPLACE(text(importxml("https://www.youtube.com/watch?v=OnNM51QWrWA","//*[contains(@class, 'watch-view-count')]"),0)," view(s)?",""))
-```
+
+`=value(REGEXREPLACE(text(importxml("https://www.youtube.com/watch?v=OnNM51QWrWA","//*[contains(@class, 'watch-view-count')]"),0)," view(s)?",""))`
 
 |FunctionName|Description|
 |--|--|
