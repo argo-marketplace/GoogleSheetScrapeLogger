@@ -50,3 +50,6 @@ function copyRange()
 
 
 7. FIN. Use datastudio.google.com to create charts and dashboards for your data stream.
+
+![image](https://user-images.githubusercontent.com/4397663/40270697-19602a4a-5b4f-11e8-8a52-717f180fa318.png)
+
