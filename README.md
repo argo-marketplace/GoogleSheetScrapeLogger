@@ -1,8 +1,20 @@
 
 # GoogleSheetScrapeLogger
-A dirt simple way to scrape and log data using Google Sheets
+A dirt simple way to scrape and log data using Google Sheets.
+
+## WHY
+
+Google Spreadsheets & associated Scripting language enables a free, low-barrier framework to extract + transform + load (ETL) small data (less than 400,000 rows, Google Spreadsheets' limit):
+
+Extact = Google Import functions.
+Transform = Google Functions like REGEXREPLACE() function and similar.
+Load = http://datastudio.google.com (edited
 
 
+## WHAT
+This method allows you to scrape some data from a simple website,  log data in a Google Spreadsheet as per some schedule, visualize it quickly without too much hassle.
+
+## HOW
 1. Use GoogleSheet's IMPORT* functions to import some data into a Google Sheet.
 
 For this example, I am importing views from a Youtube video.
